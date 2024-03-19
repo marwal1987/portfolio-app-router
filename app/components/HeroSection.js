@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="py-12  flex flex-col lg:flex-row items-center justify-evenly gap-12">
+    <section className="py-12 flex flex-col lg:flex-row items-center justify-evenly gap-12">
       <div className="container flex flex-col items-center justify-center max-w-96 gap-12">
         <h1 className="text-4xl md:text-5xl tracking-wide uppercase font-bold text-white text-center">
           <span>
