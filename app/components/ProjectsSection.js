@@ -2,7 +2,7 @@ import Card from "./Card";
 
 export default function ProjectsSection() {
   return (
-    <section className="p-12 bg-gray-900 w-[100%] flex flex-col gap-12">
+    <section className="p-12 flex flex-col gap-12">
       <h2 className="text-2xl md:text-3xl font-bold text-white ">
         My Projects
       </h2>
@@ -29,7 +29,6 @@ export default function ProjectsSection() {
           url="website"
           imgUrl="./images/man-on-the-moon.jpg"
         />
-
       </div>
     </section>
   );
