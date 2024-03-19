@@ -9,23 +9,25 @@ export default function ProjectsSection() {
 
       <div className="container flex flex-col gap-12 justify-center items-start">
         <Card
-          title="Project 1"
+          title="Project title 1"
           description="Description 1"
           usedTech="HTML CSS React Tailwind"
           url="website"
-          imgUrl="/../../public/images/man-on-the-moon.jpg"
+          imgUrl="./images/man-on-the-moon.jpg"
         />
         <Card
           title="Project 2"
           description="Description 2"
           usedTech="HTML CSS React Tailwind"
           url="website"
+          imgUrl="./images/man-on-the-moon.jpg"
         />
         <Card
           title="Project 3"
           description="Description 3"
           usedTech="HTML CSS React Tailwind"
           url="website"
+          imgUrl="./images/man-on-the-moon.jpg"
         />
 
       </div>

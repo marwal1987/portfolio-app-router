@@ -12,7 +12,7 @@ export default function HeroSection() {
           Twist</span>
         </h1>
         <p
-          className="text-lg text-stone-100 text-center "
+          className="text-xl text-white text-center  "
         >
           Meet Martin, a multifaceted talent bridging the worlds of Front-End
           development and Linux expertise with a harmonious touch. With a

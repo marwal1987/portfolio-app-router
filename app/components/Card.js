@@ -2,12 +2,13 @@ export default function Card({ title, description, usedTech, url, imgUrl }) {
   return (
     <article
       id="card"
-      className="bg-gray-900 flex flex-row justify-around items-center gap-12 p-12 w-[100%] m-h-96 shadow shadow-white rounded-lg"
+      className="bg-gray-900 flex flex-row items-center gap-12 p-12 w-[100%] m-h-96 shadow shadow-white rounded-lg"
     >
       <img
         src={imgUrl}
         alt="Project-preview-image"
         className="text-gray-300 "
+        width="300px"
       />
 
       <div>
