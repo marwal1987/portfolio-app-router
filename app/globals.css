@@ -9,10 +9,12 @@ html {
 }
 
 body {
-  background-image: -moz-radial-gradient(rgba(60, 60, 60, 0.3), black);
-  /* background-color: #404530dd; */
-  background-color: black;
+  background-color: #111;
   max-width: 1280px;
-  box-shadow: 0px 0px 150px rgba(150, 150, 60, 0.2);
+  box-shadow: 0px 0px 150px rgba(150, 150, 60, 0.6);
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }

@@ -1,5 +1,8 @@
 # Todo
 
+## Hero section
+- Create span with gradient letters/words
+
 1. Fix ProjectsSection.jsx
 
 - Working links to actual github projects
