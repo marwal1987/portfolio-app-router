@@ -3,6 +3,7 @@
 ## Hero section
 
 - Create span with gradient letters/words
+- Add profile picture
 
 ## ProjectsSection.jsx
 
@@ -13,6 +14,8 @@
 
 ## ContactSection.jsx
 
+#### Add real contact info
+
 - Links to LinkedIn or other
 - Mail
 - Phonenumber?
@@ -20,5 +23,3 @@
 ## Unsorted
 
 - If there is time: add a dark/light mode toggle
-- Add profile picture
-- Add real contact info
