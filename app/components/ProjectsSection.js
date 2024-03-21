@@ -3,7 +3,7 @@ import Card from "./Card";
 export default function ProjectsSection() {
   return (
     <section className="p-12 flex flex-col gap-12">
-      <h2 className="text-2xl md:text-3xl font-bold text-white ">
+      <h2 className="text-2xl md:text-3xl font-bold text-stone-300 ">
         My Projects
       </h2>
 
