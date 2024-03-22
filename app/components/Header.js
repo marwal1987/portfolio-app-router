@@ -1,7 +1,7 @@
 export default function () {
   return (
     <>
-      <header className="container py-12">
+      <header className="container py-6">
         <nav>
           <menu className="flex items-center justify-center gap-12">
             <a href="">
