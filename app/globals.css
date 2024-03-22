@@ -9,9 +9,9 @@ html {
 }
 
 html {
-  @apply bg-gradient-to-r from-slate-950 to-slate-950 via-amber-800;
+  @apply bg-gradient-to-r from-slate-950 to-slate-950 via-amber-900;
 }
 
 body {
-  @apply flex flex-col bg-slate-900 items-center justify-evenly container  max-w-[960px] m-auto shadow-amber-400 shadow-lg;
+  @apply flex flex-col bg-slate-900 items-center justify-evenly container  max-w-[960px] m-auto shadow-amber-600 shadow-lg;
 }
