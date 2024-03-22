@@ -8,13 +8,10 @@ html {
   font-family: "Alumni Sans", sans-serif;
 }
 
+html {
+  @apply bg-gradient-to-r from-slate-950 to-slate-950 via-amber-800;
+}
+
 body {
-  background-color: #111;
-  max-width: 1280px;
-  box-shadow: 0px 0px 150px rgba(150, 150, 60, 0.6);
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+  @apply flex flex-col bg-slate-900 items-center justify-evenly container  max-w-[960px] m-auto shadow-amber-400 shadow-lg;
 }

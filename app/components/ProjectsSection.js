@@ -4,31 +4,35 @@ export default function ProjectsSection() {
   return (
     <section className="p-12 flex flex-col gap-12">
       <h2 className="text-2xl md:text-3xl font-bold text-amber-400 ">
-        My Projects
+      <span className="bg-clip-text text-transparent bg-gradient-to-b  from-amber-900 to-amber-900 via-amber-400 rounded-l-xl">
+      My Projects
+  </span>
+        
+        
         <div
           id="underline"
-          className="rounded-br-full w-[110px] h-[2px] bg-gradient-to-r from-amber-400 to-emerald-600"
+          className="rounded-br-full w-[110px] h-[2px] bg-gradient-to-r  from-amber-900 to-amber-900 via-amber-400"
         ></div>
       </h2>
 
       <div className="container flex flex-col gap-12 justify-center items-start">
         <Card
-          title="Newspage"
-          description="Description 2"
-          usedTech="HTML CSS React Tailwind"
+          title="CHAS - News website"
+          description='"Group project creating a news-site"'
+          usedTech="HTML, CSS/Tailwind, Nextjs, Redux/Toolkit"
           url="website"
           imgUrl="/images/code.png"
         />
         <Card
-          title="Quiz"
-          description='"A simple tic-tac-toe app with a little twist..."'
-          usedTech="HTML CSS React Tailwind"
+          title="CHAS - Quiz web-app"
+          description='"Group project creating a Quiz-web-app"'
+          usedTech="HTML, CSS/Tailwind, Nextjs (Context-API)"
           url="website"
         />
         <Card
           title="Tic-Tac-Toe"
           description='"A simple tic-tac-toe app with a little twist..."'
-          usedTech="HTML CSS React Tailwind"
+          usedTech="HTML CSS/Tailwind React"
           url="website"
         />
         <Card
