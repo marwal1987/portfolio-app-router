@@ -1,13 +1,15 @@
 export default function Card({ title, description, usedTech, url }) {
   return (
-    <section className="container grid md:grid-cols-[58px_342px_200px] cursor-pointer items-center bg-stone-500 hover:bg-gradient-to-br from-amber-900 to-amber-900 via-amber-400 via-35% shadow shadow-white md:rounded-tr-full outline-double outline-4">
-      <div className=" max-w-[10px] h-[200px] bg-gradient-to-l from-slate-950 to-slate-950 via-slate-500  border-r-teal-200"></div>
+    <section className="container grid md:grid-cols-[58px_342px_200px] cursor-pointer items-center bg-stone-500 hover:bg-gradient-to-br from-amber-900 to-amber-900 via-amber-400 via-35% md:rounded-tr-full outline-double outline-4 shadow-md hover:shadow-white">
+      <div className=" max-w-[10px] h-[200px] bg-gradient-to-l from-slate-950 to-slate-950 via-slate-600  border-r-teal-200"></div>
 
-      <article className="col-start-2 flex flex-col items-start gap-6">
+      <article className="col-start-2 flex flex-col items-start gap-6 ">
         <h2 className="text-3xl md:text-4xl font-bold text-amber-950">
           {title}
         </h2>
-        <p className="text-xl text-amber-950"><i>{description}</i></p>
+        <p className="text-xl text-amber-950">
+          <i>{description}</i>
+        </p>
 
         <div>
           <p className="text-xl text-amber-950 font-bold">Tech Stack:</p>

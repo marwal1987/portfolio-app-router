@@ -1,7 +1,7 @@
 export default function () {
   return (
     <>
-      <header className="container py-6">
+      <header className="container py-3 bg-gradient-to-b from-slate-950 to-slate-950 via-slate-800">
         <nav>
           <menu className="flex items-center justify-center gap-12">
             <a href="">
@@ -21,9 +21,8 @@ export default function () {
             </a>
           </menu>
         </nav>
-
-        <div className="w-[100%] h-[1px] bg-gradient-to-r from-amber-900 to-amber-900 via-amber-400"></div>
       </header>
+      <div className="w-[100%] h-[1px] bg-gradient-to-r from-amber-950 to-amber-950 via-amber-500"></div>
     </>
   );
 }

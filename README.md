@@ -2,24 +2,25 @@
 
 ## Hero section
 
-- Create span with gradient letters/words
-- Add profile picture
+- Fix link on bouncing arrow to take user to projects section
+
+## Add "About" section
+
+- Profile picture
+- More indepth info (Bio)
 
 ## ProjectsSection.jsx
 
-- Working links to actual github projects
-- A bit to wide. Not in line with herosection
-- Projects to add:
-  gonews, goquiz, Clock, Tic-Tac-Toe (unfinished), Todo-list, Remake Zoom? more?
+- Nothing at the moment
 
 ## ContactSection.jsx
 
-#### Add real contact info
-
-- Links to LinkedIn or other
-- Mail
-- Phonenumber?
+- Structure placement of elements
+- Add LinkedIn
+- Add Phonenumber?
 
 ## Unsorted
 
-- If there is time: add a dark/light mode toggle
+- Make the site responsive
+
+- If there is time, add a dark/light mode toggle

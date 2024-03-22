@@ -13,5 +13,5 @@ html {
 }
 
 body {
-  @apply flex flex-col bg-slate-900 items-center justify-evenly container  max-w-[960px] m-auto shadow-amber-600 shadow-lg;
+  @apply flex flex-col bg-slate-900 items-center justify-evenly container  max-w-[960px] m-auto shadow-amber-700 shadow-lg border-2 border-slate-950;
 }
