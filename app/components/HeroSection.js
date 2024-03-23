@@ -1,8 +1,21 @@
-import Image from "next/image";
+"use client";
 
 export default function HeroSection() {
+  const scrollToSection = (sectionId) => {
+    const section = document.querySelector(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
-    <section className="py-12 flex flex-col gap-12 items-center justify-between">
+    <section
+      id="hero"
+      className="py-12 flex flex-col gap-12 items-center justify-between"
+    >
       <div className="container flex flex-col items-center justify-center max-w-[600px] gap-12">
         <h1 className="text-4xl md:text-7xl tracking-wide uppercase font-bold text-amber-400 text-center drop-shadow-[0_0_10px_rgba(252,211,77,0.4)] hover:animate-none">
           <span className="bg-clip-text text-transparent bg-gradient-to-b  from-amber-900 to-amber-900 via-amber-400 rounded-l-xl">
@@ -20,7 +33,13 @@ export default function HeroSection() {
           seamless DevOps workflows.
         </p>
 
-        <button className="px-2 animate-pulse hover:animate-none  text-3xl font-bold text-amber-500 hover:text-amber-200  border-2 rounded-full border-amber-500 shadow-[0_0px_10px_rgba(252,211,77,0.6)]" >&darr;</button>
+        <button
+          aria-label="To projects section"
+          onClick={() => scrollToSection("#projects")}
+          className="px-2 animate-pulse hover:animate-none  text-3xl font-bold text-amber-500 hover:text-amber-300  border-2 rounded-full border-amber-500 shadow-[0_0px_10px_rgba(252,211,77,0.6)]"
+        >
+          &darr;
+        </button>
       </div>
       {/* <div className="flex items-center justify-center">
         <Image

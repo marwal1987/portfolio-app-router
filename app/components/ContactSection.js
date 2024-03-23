@@ -1,6 +1,6 @@
 function ContactSection() {
   return (
-    <section className="container flex flex-col items-center justify-center gap-6">
+    <section id="contact" className="container flex flex-col items-center justify-center gap-6">
       <div className="w-[100%] h-[1px] bg-gradient-to-r from-amber-950 to-amber-950 via-amber-500"></div>
       <div className="container flex flex-col justify-center items-center">
         <h2 className="text-2xl md:text-3xl font-bold">

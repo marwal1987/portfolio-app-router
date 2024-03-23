@@ -4,7 +4,7 @@
 
 - Fix link on bouncing arrow to take user to projects section
 
-## Add "About" section
+## Add "About" section?
 
 - Profile picture
 - More indepth info (Bio)
@@ -22,5 +22,5 @@
 ## Unsorted
 
 - Make the site responsive
-
+- Add remove animations button
 - If there is time, add a dark/light mode toggle

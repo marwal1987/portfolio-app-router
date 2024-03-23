@@ -3,7 +3,8 @@ export default function Card({ title, description, usedTech, url }) {
     <section className="container grid md:grid-cols-[58px_342px_200px] cursor-pointer items-center bg-stone-500 hover:bg-gradient-to-br from-amber-900 to-amber-900 via-amber-400 via-35% md:rounded-tr-full outline-double outline-4 shadow-md hover:shadow-white">
       <div className=" max-w-[10px] h-[200px] bg-gradient-to-l from-slate-950 to-slate-950 via-slate-600  border-r-teal-200"></div>
 
-      <article className="col-start-2 flex flex-col items-start gap-6 ">
+      <article className="col-start-2  ">
+      <a aria-label={`Link to ${title}`} href={url} className="flex flex-col items-start gap-3">
         <h2 className="text-3xl md:text-4xl font-bold text-amber-950">
           {title}
         </h2>
@@ -15,9 +16,10 @@ export default function Card({ title, description, usedTech, url }) {
           <p className="text-xl text-amber-950 font-bold">Tech Stack:</p>
           <p className=" text-lg text-amber-950">{usedTech}</p>
         </div>
-      </article>
 
-      <a href={url}>
+          </a>
+      </article>
+      
         <svg width="98" height="96" xmlns="http://www.w3.org/2000/svg">
           <path
             fillRule="evenodd"
@@ -26,7 +28,7 @@ export default function Card({ title, description, usedTech, url }) {
             fill="#24292f"
           />
         </svg>
-      </a>
+
     </section>
   );
 }

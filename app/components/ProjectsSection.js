@@ -2,7 +2,7 @@ import Card from "./Card";
 
 export default function ProjectsSection() {
   return (
-    <section className="p-12 flex flex-col gap-12">
+    <section id="projects" className="p-12 flex flex-col gap-12">
       <h2 className="text-2xl md:text-3xl font-bold text-amber-400 ">
         <span className="bg-clip-text text-transparent bg-gradient-to-b  from-amber-900 to-amber-900 via-amber-400 rounded-l-xl">
           My Projects
