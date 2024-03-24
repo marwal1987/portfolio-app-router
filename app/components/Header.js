@@ -27,7 +27,7 @@ export default function () {
     if (section) {
       window.scrollTo({
         top: section.offsetTop,
-        behavior: 'smooth'
+        behavior: "smooth",
       });
     }
   };
@@ -36,33 +36,31 @@ export default function () {
     <>
       <div id="top" className="hidden" aria-hidden="true"></div>
       <header
-        className={`container sticky top-0 z-50 py-3 ${
+        className={`container max-w-screen-lg flex flex-col place-content-center sticky top-0 z-50 ${
           !isScrolled
             ? "bg-gradient-to-b from-slate-950 to-slate-950 via-slate-900"
             : "transparent-header"
         }`}
       >
         <nav className="">
-          <menu className="flex items-center justify-center gap-12">
-            <button onClick={() => scrollToSection('#top')}>
-              <span className="text-2xl hover:font-bold bg-clip-text text-stone-500 hover:text-transparent hover:bg-gradient-to-b from-amber-900 to-amber-900 via-amber-400 rounded-l-xl">
+          <menu className="flex place-content-center gap-12 py-3">
+            <button className="nav-btn" onClick={() => scrollToSection("#top")}>
                 Home
-              </span>
             </button>
-            <button  onClick={() => scrollToSection('#projects')}>
-              <span className="text-2xl hover:font-bold bg-clip-text text-stone-500 hover:text-transparent hover:bg-gradient-to-b from-amber-900 to-amber-900 via-amber-400 rounded-l-xl">
+            <button className="nav-btn" onClick={() => scrollToSection("#projects")}>
+              <span>
                 Projects
               </span>
             </button>
-            <button onClick={() => scrollToSection('#contact')}>
-              <span className="text-2xl hover:font-bold bg-clip-text text-stone-500 hover:text-transparent hover:bg-gradient-to-b from-amber-900 to-amber-900 via-amber-400 rounded-l-xl">
+            <button className="nav-btn" onClick={() => scrollToSection("#contact")}>
+              <span>
                 Contact
               </span>
             </button>
           </menu>
         </nav>
+        <div aria-hidden="true" className="w-[100%] h-[1px] bg-gradient-to-r from-amber-950 to-amber-950 via-amber-500"></div>
       </header>
-      <div className="w-[100%] h-[1px] bg-gradient-to-r from-amber-950 to-amber-950 via-amber-500"></div>
     </>
   );
 }

@@ -1,23 +1,24 @@
 function ContactSection() {
   return (
-    <section id="contact" className="container flex flex-col items-center justify-center gap-6">
-      <div className="w-[100%] h-[1px] bg-gradient-to-r from-amber-950 to-amber-950 via-amber-500"></div>
-      <div className="container flex flex-col justify-center items-center">
-        <h2 className="text-2xl md:text-3xl font-bold">
-          <span className="bg-clip-text text-transparent bg-gradient-to-b from-amber-900 to-amber-900 via-amber-400 rounded-l-xl">
-            Contact
-          </span>
-        </h2>
+    <footer
+    id="contact"
+    className="container max-w-screen-lg flex flex-col place-items-center gap-3 mb-3"
+    >
+    <div aria-hidden="true" className="w-[100%] h-[1px] bg-gradient-to-r from-amber-950 to-amber-950 via-amber-500"></div>
+      <h2 className="text-2xl md:text-3xl font-bold">
+        <span className="golden-text">
+          Contact
+        </span>
+      </h2>
 
-        <ul className="text-lg text-stone-400">
-          <li>marwal1987@gmail.com</li>
-          <li>LinkedIn</li>
-          <li></li>
-          </ul>
-      </div>
+      <ul className="text-xl text-stone-400">
+        <li>marwal1987@gmail.com</li>
+        {/* <li></li>
+          <li></li> */}
+      </ul>
 
-      <p className="text-lg text-stone-400">&copy; 2024 Martin Wallberg</p>
-    </section>
+      <p className="text-xl text-stone-400">&copy; 2024 Martin Wallberg</p>
+    </footer>
   );
 }
 

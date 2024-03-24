@@ -1,26 +1,16 @@
 # Todo
 
-## Hero section
+## Header
 
-- Fix link on bouncing arrow to take user to projects section
+## Hero
 
-## Add "About" section?
+## Projects
 
-- Profile picture
-- More indepth info (Bio)
-
-## ProjectsSection.jsx
-
-- Nothing at the moment
-
-## ContactSection.jsx
-
-- Structure placement of elements
-- Add LinkedIn
-- Add Phonenumber?
+## Footer
 
 ## Unsorted
 
-- Make the site responsive
-- Add remove animations button
-- If there is time, add a dark/light mode toggle
+- Add: A hamburger menu button for small screens (this isn't necessary because the navbar is so small, only 3 buttons)
+
+- Add: A remove animations button
+- Add: A dark/light mode toggle (choose coloring for light-mode)
