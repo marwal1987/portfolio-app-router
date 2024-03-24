@@ -14,3 +14,6 @@
 
 - Add: A remove animations button
 - Add: A dark/light mode toggle (choose coloring for light-mode)
+
+## Golden amber or more like real Gold?
+- I've been experimenting with different goldish colors... Need to make a choice

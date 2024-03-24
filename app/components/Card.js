@@ -1,13 +1,13 @@
 export default function Card({ title, description, usedTech, url }) {
   return (
 
-    <section className="card container md:h-60 flex md:flex-row flex-col gap-12 md:pr-12 cursor-pointer md:rounded-r-full outline-double outline-2">
+    <section className="card container md:h-60 flex md:flex-row flex-col gap-12 md:pr-12 cursor-pointer md:rounded-r-full outline-double outline-4">
         <div
           id="vertical-pillar"
           aria-hidden={true}
           className="md:w-[10px] md:h-[100%] h-[10px] w-[inherit] md:bg-gradient-to-l bg-gradient-to-b from-slate-950 to-slate-950 via-slate-600 "
         ></div>
-      <article className="container flex md:flex-row flex-col items-center gap-12">
+      <article className="container flex md:flex-row flex-col items-center justify-between gap-12">
 
         <div className="md:p-0 px-12">
           <h2 className="drop-shadow-2xl text-4xl text-center md:text-start font-bold text-amber-950">

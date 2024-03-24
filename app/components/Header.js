@@ -38,28 +38,27 @@ export default function () {
       <header
         className={`container max-w-screen-lg flex flex-col place-content-center sticky top-0 z-50 ${
           !isScrolled
-            ? "bg-gradient-to-b from-slate-950 to-slate-950 via-slate-900"
+            ? "bg-gradient-to-b from-gray-950 to-gray-950 via-slate-900"
             : "transparent-header"
         }`}
       >
         <nav className="">
           <menu className="flex place-content-center gap-12 py-3">
-            <button className="nav-btn" onClick={() => scrollToSection("#top")}>
-                Home
+            <button onClick={() => scrollToSection("#top")}>
+              <span className="nav-btn">Home</span>
             </button>
-            <button className="nav-btn" onClick={() => scrollToSection("#projects")}>
-              <span>
-                Projects
-              </span>
+            <button onClick={() => scrollToSection("#projects")}>
+              <span className="nav-btn">Projects</span>
             </button>
-            <button className="nav-btn" onClick={() => scrollToSection("#contact")}>
-              <span>
-                Contact
-              </span>
+            <button onClick={() => scrollToSection("#contact")}>
+              <span className="nav-btn">Contact</span>
             </button>
           </menu>
         </nav>
-        <div aria-hidden="true" className="w-[100%] h-[1px] bg-gradient-to-r from-amber-950 to-amber-950 via-amber-500"></div>
+        <div
+          aria-hidden="true"
+          className="w-[100%] h-[1px] bg-gradient-to-r from-amber-900 to-amber-900 via-amber-500"
+        ></div>
       </header>
     </>
   );

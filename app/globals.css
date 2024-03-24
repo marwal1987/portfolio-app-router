@@ -13,30 +13,30 @@ html {
 }
 
 body {
-  @apply flex flex-col gap-16 bg-gradient-to-tl from-slate-950 to-slate-950 via-slate-950/80 items-center justify-evenly container  max-w-[1024px] m-auto shadow-amber-700 shadow-lg border-2 border-slate-950 ;
+  @apply flex flex-col gap-16 bg-gradient-to-b from-slate-950 to-slate-950 via-slate-900 items-center justify-evenly container  max-w-[1024px] m-auto shadow-amber-700 shadow-lg border-2 border-slate-950 ;
 }
 
 .transparent-header {
   background-color: rgba(2, 6, 23, 0.5);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
 }
 
 .nav-btn {
-  @apply text-2xl bg-clip-text text-stone-400
+  @apply text-2xl  bg-clip-text text-transparent bg-gradient-to-tl from-stone-600 to-stone-600 via-stone-500 font-bold
 }
 
 .nav-btn:hover, nav-btn:active, nav-btn:focus {
-  @apply text-transparent bg-gradient-to-b from-amber-900 to-amber-900 via-amber-400 font-bold 
+  @apply bg-clip-text text-transparent bg-gradient-to-tl from-amber-900 to-amber-900 via-amber-400 font-bold 
 }
 
 .golden-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-b from-amber-700 to-amber-700 via-amber-400
+  @apply bg-clip-text text-transparent bg-gradient-to-b from-amber-900 to-amber-900 via-amber-400 
 }
 
 .card {
-  @apply bg-gradient-to-tl from-stone-600 to-stone-600 via-stone-400 via-60%
+  @apply bg-gradient-to-tl from-stone-700 to-stone-700 via-stone-400 via-60%
 }
 
 .card:hover, .card:active, .card:focus {
-  @apply bg-gradient-to-tl from-amber-700 to-amber-700 via-amber-400 via-40% shadow-md shadow-amber-100
+  @apply bg-gradient-to-tl from-amber-900 to-amber-900 via-amber-400 via-40% shadow-md shadow-amber-100
 }
