@@ -3,11 +3,9 @@ import Card from "./Card";
 export default function ProjectsSection() {
   return (
     <>
-      <section id="projects" className=" flex flex-col gap-12">
+      <section id="projects" className=" flex flex-col gap-12 md:p-0 px-2">
         <h2 className="text-3xl font-bold text-amber-400 ">
-          <span className="golden-text">
-            My Projects
-          </span>
+          <span className="golden-text">My Projects</span>
 
           <div className="rounded-br-full w-[110px] h-[1px] bg-gradient-to-r  from-amber-950 to-amber-950 via-amber-400"></div>
         </h2>
@@ -39,7 +37,6 @@ export default function ProjectsSection() {
           />
         </div>
       </section>
-
     </>
   );
 }

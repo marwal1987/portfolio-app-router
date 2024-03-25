@@ -2,14 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;700&display=swap");
-
 html {
   font-family: "Alumni Sans", sans-serif;
 }
 
 html {
-  @apply bg-gradient-to-r from-slate-950 to-slate-950 via-amber-950 scroll-smooth;
+  @apply bg-gradient-to-r from-slate-950 to-slate-950 via-amber-950;
 }
 
 body {
@@ -22,21 +20,25 @@ body {
 }
 
 .nav-btn {
-  @apply text-2xl  bg-clip-text text-transparent bg-gradient-to-tl from-stone-600 to-stone-600 via-stone-500 font-bold
+  @apply text-2xl  bg-clip-text text-transparent bg-gradient-to-tl from-stone-600 to-stone-600 via-stone-500 ;
 }
 
-.nav-btn:hover, nav-btn:active, nav-btn:focus {
-  @apply bg-clip-text text-transparent bg-gradient-to-tl from-amber-900 to-amber-900 via-amber-400 font-bold 
+.nav-btn:hover,
+.nav-btn:active,
+.nav-btn:focus {
+  @apply bg-clip-text text-transparent bg-gradient-to-tl from-amber-800 to-amber-800 via-amber-500 focus:outline-none ;
 }
 
 .golden-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-b from-amber-900 to-amber-900 via-amber-400 
+  @apply bg-clip-text text-transparent bg-gradient-to-b from-amber-800 to-amber-800 via-amber-500;
 }
 
 .card {
-  @apply bg-gradient-to-tl from-stone-700 to-stone-700 via-stone-400 via-60%
+  @apply container md:h-60 flex md:flex-row flex-col gap-12 md:pr-12 cursor-pointer md:rounded-r-full rounded-b-full md:rounded-bl-none outline-double outline-4 bg-gradient-to-tl from-stone-700 to-stone-700 via-stone-400 via-70%;
 }
 
-.card:hover, .card:active, .card:focus {
-  @apply bg-gradient-to-tl from-amber-900 to-amber-900 via-amber-400 via-40% shadow-md shadow-amber-100
+.card:hover,
+.card:active,
+.card:focus {
+  @apply bg-gradient-to-tl from-amber-800/70 to-amber-800/70 via-amber-500 via-75% shadow-md shadow-amber-100 focus:outline-none;
 }

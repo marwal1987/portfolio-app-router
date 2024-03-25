@@ -1,14 +1,12 @@
 export default function Card({ title, description, usedTech, url }) {
   return (
-
-    <section className="card container md:h-60 flex md:flex-row flex-col gap-12 md:pr-12 cursor-pointer md:rounded-r-full outline-double outline-4">
-        <div
-          id="vertical-pillar"
-          aria-hidden={true}
-          className="md:w-[10px] md:h-[100%] h-[10px] w-[inherit] md:bg-gradient-to-l bg-gradient-to-b from-slate-950 to-slate-950 via-slate-600 "
-        ></div>
+    <section className="card" tabIndex={0}>
+      <div
+        id="vertical-pillar"
+        aria-hidden={true}
+        className="md:w-[10px] md:h-[100%] h-[10px] w-[inherit] md:bg-gradient-to-l bg-gradient-to-b from-slate-950 to-slate-950 via-slate-600 "
+      ></div>
       <article className="container flex md:flex-row flex-col items-center justify-between gap-12">
-
         <div className="md:p-0 px-12">
           <h2 className="drop-shadow-2xl text-4xl text-center md:text-start font-bold text-amber-950">
             {title}
@@ -18,12 +16,26 @@ export default function Card({ title, description, usedTech, url }) {
           </p>
           <br />
 
-          <p className="drop-shadow-2xl text-center md:text-start text-2xl text-amber-950 font-bold">Tech Stack:</p>
-          <p className="drop-shadow-2xl text-center md:text-start text-xl text-amber-950/80">{usedTech}</p>
+          <p className="drop-shadow-2xl text-center md:text-start text-2xl text-amber-950 font-bold">
+            Tech Stack:
+          </p>
+          <p className="drop-shadow-2xl text-center md:text-start text-xl text-amber-950/80">
+            {usedTech}
+          </p>
         </div>
 
-        <a className="md:p-0 pb-12 text-center " aria-label={`Link to ${title} githubpage`} href={url} target="_blank" >
-          <svg width="98" height="96" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-xl">
+        <a
+          className="md:p-0 pb-12 text-center drop-shadow-2xl"
+          aria-label={`Link to ${title} githubpage`}
+          href={url}
+          target="_blank"
+        >
+          <svg
+            width="98"
+            height="96"
+            xmlns="http://www.w3.org/2000/svg"
+            className=""
+          >
             <path
               fillRule="evenodd"
               clipRule="evenodd"
@@ -31,11 +43,9 @@ export default function Card({ title, description, usedTech, url }) {
               fill="#24292f"
             />
           </svg>
-                  <div
-          className="text-3xl font-bold text-[#24292f] drop-shadow-xl"
-        >
-          GitHub
-        </div>
+          <div className="text-3xl font-bold text-[#24292f] drop-shadow-xl">
+            GitHub
+          </div>
         </a>
       </article>
     </section>

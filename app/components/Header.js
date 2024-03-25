@@ -44,15 +44,15 @@ export default function () {
       >
         <nav className="">
           <menu className="flex place-content-center gap-12 py-3">
-            <button onClick={() => scrollToSection("#top")}>
-              <span className="nav-btn">Home</span>
+            <button tabIndex={0} className="nav-btn " onClick={() => scrollToSection("#top")}>
+                Home
             </button>
-            <button onClick={() => scrollToSection("#projects")}>
-              <span className="nav-btn">Projects</span>
+            <button tabIndex={0} className="nav-btn" onClick={() => scrollToSection("#projects")}>
+                Projects
             </button>
-            <button onClick={() => scrollToSection("#contact")}>
-              <span className="nav-btn">Contact</span>
-            </button>
+            <button tabIndex={0} className="nav-btn" onClick={() => scrollToSection("#contact")}>
+                Contact
+                </button>
           </menu>
         </nav>
         <div
