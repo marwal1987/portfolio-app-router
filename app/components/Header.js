@@ -44,13 +44,13 @@ export default function () {
       >
         <nav className="">
           <menu className="flex place-content-center gap-12 py-3">
-            <button tabIndex={0} className="nav-btn " onClick={() => scrollToSection("#top")}>
+            <button tabIndex={0} className="nav-btn" onClick={() => scrollToSection("#top")} aria-label="To top">
                 Home
             </button>
-            <button tabIndex={0} className="nav-btn" onClick={() => scrollToSection("#projects")}>
+            <button tabIndex={0} className="nav-btn" onClick={() => scrollToSection("#projects")} aria-label="To projects section">
                 Projects
             </button>
-            <button tabIndex={0} className="nav-btn" onClick={() => scrollToSection("#contact")}>
+            <button tabIndex={0} className="nav-btn" onClick={() => scrollToSection("#contact")} aria-label="To contact section">
                 Contact
                 </button>
           </menu>

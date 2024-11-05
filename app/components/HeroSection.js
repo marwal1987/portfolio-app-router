@@ -12,22 +12,25 @@ export default function HeroSection() {
   };
 
   return (
-    <section id="hero" className=" flex flex-col gap-12 items-center md:p-0 px-2">
-      <div className="container flex flex-col items-center justify-center max-w-[600px] gap-12">
+    <section
+      id="hero"
+      className=" flex flex-col gap-12 items-center md:p-0 px-2"
+    >
+      <div className="container flex flex-col items-center justify-center max-w-[450px] gap-12">
         <h1 className=" text-6xl md:text-7xl tracking-wide uppercase font-bold text-center drop-shadow-[0_0px_20px_rgba(252,211,77,0.4)]">
           <span className="golden-text">
-            Versatile FrontEnd Developer and Linux DevOps Enthusiast with a Melodic
-            Twist
+            Curious FrontEnd Developer and Linux Enthusiast
           </span>
         </h1>
-        <p className="text-2xl text-stone-400 text-center max-w-[400px] ">
-          Meet Martin, a multifaceted talent bridging the worlds of Front-End
-          development and Linux expertise with a harmonious touch. With a
-          journey that spans from mastering HTML, CSS, and React to delving into
-          the intricacies of Linux systems and virtualization technologies,
-          Martin brings a unique blend of technical prowess and creativity to
-          the table. From crafting captivating user interfaces to orchestrating
-          seamless DevOps workflows.
+        <p className="text-2xl text-stone-400 text-center  max-w-[350px] ">
+          <span className="text-4xl">M</span>eet Martin, a developer who enjoys
+          exploring the intersections of Front-End development and Linux
+          systems. With a background that includes hands-on experience with
+          HTML, CSS, React, NextJS and virtualization and DevOps tools, Martin
+          embraces learning and experimenting as core parts of his journey.
+          Balancing technical challenges with creativity, he finds fulfillment
+          in building projects that reflect both curiosity and thoughtful
+          design.
         </p>
 
         <button

@@ -33,6 +33,7 @@ body {
   @apply bg-clip-text text-transparent bg-gradient-to-b from-amber-800 to-amber-800 via-amber-500;
 }
 
+
 .card {
   @apply container md:h-60 flex md:flex-row flex-col gap-12 md:pr-12 cursor-pointer md:rounded-r-full rounded-b-full md:rounded-bl-none outline-double outline-4 bg-gradient-to-tl from-stone-700 to-stone-700 via-stone-400 via-70%;
 }

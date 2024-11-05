@@ -12,6 +12,12 @@ export default function ProjectsSection() {
 
         <div className="container flex flex-col gap-12 justify-center items-center">
           <Card
+          title="CHAS - AI Adventure (live)"
+          description="Text-based adventure where AI act as dungeon-master"
+          usedTech="OpenAI, NextJS, Tailwind, Vercel for hosting"
+          url="https://ai-adventure-ten.vercel.app/"
+          />
+          <Card
             title="CHAS - News website"
             description='"Group project creating a news site with news API"'
             usedTech="HTML, CSS/Tailwind, Nextjs, Redux/Toolkit"
